@@ -1,0 +1,60 @@
+﻿body
+{
+	margin:0;
+	background-color:#EDFCFF;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header
+{
+	background-image: url("World-Trigger.png");
+	background-repeat:repeat-x;
+	background-color: #3CE5ED;
+	background-position: 0 -100px;
+	height:800px;
+}
+
+.noO:hover{
+	background-color:blue;
+}
+header h1
+{
+	display: inline-block;
+	vertical-align:top;
+	margin-top: 600px;
+	color: white;
+
+	font-weight: bold;
+	font-size: 100px;
+	text-decoration: underline;
+	letter-spacing:2px;
+}
+
+h1, h2
+{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+header img
+{
+	display:inline-block;
+	width:300px;
+	margin-top:400px;
+	margin-left:30%;
+	background-color: #34B3D2;	
+	border-radius:200px;
+	border: 20px solid black;	
+}
+
+
+main
+{
+	max-width:1000px;
+	margin: 0 auto;
+	padding:0 20px 20px 10px;
+}
+
+main img{
+	
+	width:100%;
+}
