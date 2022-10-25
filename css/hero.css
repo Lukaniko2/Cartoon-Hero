@@ -3,6 +3,7 @@
 	margin:0;
 	background-color:#EDFCFF;
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
 }
 
 header
@@ -11,7 +12,8 @@ header
 	background-repeat:repeat-x;
 	background-color: #3CE5ED;
 	background-position: 0 -100px;
-	height:800px;
+	height:auto;
+
 }
 
 .noO:hover{
@@ -19,15 +21,13 @@ header
 }
 header h1
 {
-	display: inline-block;
-	vertical-align:top;
-	margin-top: 600px;
 	color: white;
 
 	font-weight: bold;
 	font-size: 100px;
 	text-decoration: underline;
 	letter-spacing:2px;
+	margin-bottom:0px;
 }
 
 h1, h2
@@ -37,24 +37,80 @@ h1, h2
 
 header img
 {
-	display:inline-block;
 	width:300px;
-	margin-top:400px;
-	margin-left:30%;
 	background-color: #34B3D2;	
 	border-radius:200px;
 	border: 20px solid black;	
+	margin-bottom:-20px;
+	
 }
 
+.pfp{
+	margin-top:400px;
+	margin-left:80px;
+	display:inline-block;
+	margin-bottom:-100px;
+}
+
+.headerWords{
+	display: inline-block;
+	vertical-align:top;
+	margin-top: 500px;
+
+}
+
+.testSpace
+{
+	width:auto;
+	background-color:white;
+	padding-left:200px;
+	margin-top:-100px;
+	padding-top:60px;
+}
+
+.caption{
+	color:grey;
+	font-style: italic;
+	font-size: small;
+	margin-top: 0px;
+}
 
 main
 {
 	max-width:1000px;
-	margin: 0 auto;
+	margin: 50px auto 0px;
 	padding:0 20px 20px 10px;
 }
 
 main img{
 	
 	width:100%;
+}
+
+h2{
+	font-size: 40px;
+	color: #16788B;
+	margin: 40px auto 0px auto;
+}
+p, ol, ul{
+	margin-top:10px;
+}
+
+a{
+	color: #2BDBE6;
+}
+
+a:hover{
+	color: #16788B;
+}
+
+footer{
+	background-image: url("World-Trigger.png");
+	background-position: 0 -100px;
+}
+
+footer p{
+	padding: 50px;
+	margin: 0px;
+	color: white;
 }
