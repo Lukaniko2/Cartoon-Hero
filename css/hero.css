@@ -1,7 +1,8 @@
 ﻿body
 {
 	margin:0;
-	background-color:#EDFCFF;
+	background-color:#030E22;
+	
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 25px;
 }
@@ -29,7 +30,10 @@ header h1
 	letter-spacing:2px;
 	margin-bottom:0px;
 }
-
+.all{
+	max-width: 1000px;
+	margin:auto auto;
+}
 h1, h2
 {
 	font-family: 'Noto Sans JP', sans-serif;
@@ -40,16 +44,16 @@ header img
 	width:300px;
 	background-color: #34B3D2;	
 	border-radius:200px;
-	border: 20px solid black;	
-	margin-bottom:-20px;
-	
+	border: 20px solid #030E22;	
+	margin-bottom:-100px;
+
 }
 
 .pfp{
-	margin-top:400px;
-	margin-left:80px;
+	margin-top:450px;
+	margin-left:-200px;
 	display:inline-block;
-	margin-bottom:-100px;
+	margin-bottom:-200px;
 }
 
 .headerWords{
@@ -71,15 +75,34 @@ header img
 .caption{
 	color:grey;
 	font-style: italic;
-	font-size: small;
+	font-size: 80%;
 	margin-top: 0px;
 }
 
 main
 {
 	max-width:1000px;
-	margin: 50px auto 0px;
-	padding:0 20px 20px 10px;
+	margin: 50px auto 50px;
+	
+	
+}
+
+.section{
+	background-color:#A5DCEE;
+	padding:10px 40px 20px 40px;
+	margin:0 0 10px;
+	border-radius: 30px;
+}
+.teams {
+	background-image: url("Team.png");
+	background-size: 100%;
+	padding:0;
+}
+
+.transBox{
+	background: rgba(165,220,238,0.6);
+	border-radius: 30px;
+	padding : 10px 40px 20px 40px;
 }
 
 main img{
@@ -90,18 +113,20 @@ main img{
 h2{
 	font-size: 40px;
 	color: #16788B;
-	margin: 40px auto 0px auto;
+	margin: 10px auto 0px auto;
 }
 p, ol, ul{
 	margin-top:10px;
+	line-height:35px;
 }
 
 a{
-	color: #2BDBE6;
+	color: #0080AA;
+	font-weight: bold;
 }
 
 a:hover{
-	color: #16788B;
+	color: #094574;
 }
 
 footer{
