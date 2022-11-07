@@ -14,9 +14,12 @@ header
 	background-color: #3CE5ED;
 	background-position: 0 -100px;
 	height:auto;
-
 }
 
+span
+{
+	color: #442ABD;
+}
 .noO:hover{
 	background-color:blue;
 }
@@ -96,13 +99,14 @@ main
 .teams {
 	background-image: url("Team.png");
 	background-size: 100%;
-	padding:0;
+	padding:0px;
 }
 
 .transBox{
 	background: rgba(165,220,238,0.6);
 	border-radius: 30px;
-	padding : 10px 40px 20px 40px;
+	padding:10px 40px 100px 40px;
+
 }
 
 main img{
