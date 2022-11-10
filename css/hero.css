@@ -1,10 +1,31 @@
-﻿body
+﻿html
 {
-	margin:0;
+	scroll-behavior:smooth;
+}
+
+body
+{
 	background-color:#030E22;
-	
+	margin-top:0px;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 25px;
+}
+
+nav{
+	top: 0;
+	background-color:#030E22;
+	padding:20px 0px;
+	text-align: center;
+	position:fixed;
+	width: 100%;
+}
+
+nav a{
+	text-decoration:none;
+	padding: 20px 20px;
+}
+nav a:hover{
+	background-color:#A5DCEE;
 }
 
 header
@@ -86,8 +107,6 @@ main
 {
 	max-width:1000px;
 	margin: 50px auto 50px;
-	
-	
 }
 
 .section{
@@ -122,6 +141,7 @@ h2{
 p, ol, ul{
 	margin-top:10px;
 	line-height:35px;
+	
 }
 
 a{
